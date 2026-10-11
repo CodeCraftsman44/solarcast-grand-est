@@ -7,3 +7,6 @@ __pycache__/
 # Data and trained models: generated, never committed
 data/
 models/
+
+#Package build metadata
+*.egg-info
