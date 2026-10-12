@@ -4,6 +4,7 @@ from pathlib import Path
 #setting file paths to where the data should be stored
 ROOT = Path(__file__).resolve().parents[2]
 RAW = ROOT / "data" / "raw"
+PROCESSED = ROOT / "data" / "processed"
 
 #setting date limits
 START = "2022-01-01"
